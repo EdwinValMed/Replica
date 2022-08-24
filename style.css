@@ -1,0 +1,420 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+
+.container{
+    /* margin: 0 15%;
+    padding: 15px; */
+    /* width: 55%;  */
+    /* background-color: rgb(164, 143, 115);  */ 
+    margin: 0 auto; 
+    margin-top: 32px; 
+   
+}
+.container-1{
+    width: 1040px;
+    margin: 0 auto;
+    /* background-color: aquamarine; */ 
+    background-image: url(./svg/Oso-bote.svg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    position: relative;
+    left: 40px;
+   
+    
+    
+}
+.container-nav{
+    width:1000px;
+    /* background-color: aquamarine; */
+    display: flex;
+   /*  justify-content: space-between; */
+   
+    
+    
+}
+.tex-menu{
+    margin-top: 15px;
+    width: 635px;
+    /* display: flex;  */
+    justify-content: space-evenly;  
+}
+.idioma{
+    position: relative;
+    top: 11px;
+    left: 200px;
+    color:rgba(0, 0, 0, 0.548);  ;
+
+}
+
+.menu{
+    margin-top: 50px;
+    margin-left: 29px;
+    color: rgba(0, 0, 0, 0.548);    
+    text-decoration: none;
+ 
+}
+
+.menu-1{
+    color: black;
+    border-bottom: 2px solid red;
+    
+}
+.title{
+    margin-top: 43px;
+    font-size:43px
+}
+.text-opaque{
+    font-size: 18px;
+    margin-top: 18px;
+    color: rgba(42, 41, 41, 0.545);
+    margin-bottom: 70px;
+}
+
+.svg-apple{  
+    width: 450px;
+    margin-bottom: 27px;
+    
+    
+    /* background-image: url(./svg/mac-app-store-badge.svg);
+    background-image: url(./svg/app-pequeña.svg);
+    background-repeat: no-repeat; */
+}
+.app-g{
+    width: 190px;
+    margin-right: 11px;
+}
+.app-p{
+    width: 145px;
+}
+.form1{
+    
+    /* background-color: aqua; */
+   /*  height: 100px; */
+     display: flex; 
+    
+}
+.input{
+    width: 355px;
+    height: 44px;
+    border: 1px solid rgba(137, 135, 135, 0.4);
+   /*  margin-top: 27px; */
+    font-size: 4px;
+    border-left: #DD4c4f 3px solid;
+}
+::placeholder{
+    font-size: 17px;
+    padding: 15px;
+    
+    color: rgba(128, 128, 128, 0.53) ;
+       
+}
+
+
+.button{
+    
+    padding: 15px;
+    margin-left: 16px;
+    background-color: #DD4c4f;
+    color: white;
+    border: none;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+    width: 168px;
+
+}
+.paragraph1{
+    margin-top: 15px;
+    font-size: 15px;
+    color: rgba(42, 41, 41, 0.545);
+    margin-bottom: 84px;
+}
+.hr{
+    
+    height: 1px;
+    /* background: rgba(164, 164, 164, 0.519); */
+    border: none;
+
+}
+.hr-1{
+    /* width: 700px; */
+    height: 1px;
+    background: #dedede;
+    border: none;
+}
+
+.container-2{
+    width: 1300px;
+    margin: 0 auto;
+    /* background-color: aquamarine;   */
+    
+   /*  background-size: 55%;
+    background-repeat: no-repeat;
+    background-position:bottom right;
+    position: relative;
+    left: 40px; */
+}
+
+.text-2{
+    
+    width: 800px;
+    /* margin: 0 auto; */
+    padding: 38px;
+    /* background-color: beige; */
+    display: flex;
+    /* justify-content: space-between; */
+    margin-bottom: 23PX;
+    margin-left: 130px;
+    
+
+}
+.paragraph-2{
+    margin-top: -8px;
+    width: 492px;
+    margin-right: 60px;
+    /* background-color: bisque;  */
+    
+    
+    
+    
+}
+.title-1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.images-all{
+    width: 1400px;
+    height: 608px;
+    overflow: hidden;
+    position: relative;
+    
+    /* background-color: beige; */
+    
+}
+.image-1{
+    position:absolute;
+    left: 700px;
+}
+
+
+.image-2{
+    width: 852px;
+    position:absolute;
+    font-size: 300px;
+    left: 16px;
+    top: 110px;
+}
+
+.image-3{
+    position: absolute;
+    left: 650px;
+    top: 231px;
+}
+
+.image-4{
+    position: absolute;
+    left: 573px;
+    top: 434px;
+}
+
+.container-3{
+    width: 960px;
+    margin: 0 auto;   
+    margin-top: 68px; 
+    margin-bottom: 60px;
+    
+    font-size: 20px;
+    
+}
+
+.video-t{
+    
+    font-size: 30px;
+    width: 960px;
+    text-align: center;
+    margin-bottom: 17px;
+    
+}
+.title-video{
+    width: 960px;
+    margin: 0 auto;
+    
+    
+}
+.container-4{
+    
+    width: 1023px;
+    margin: 0 auto;   
+    margin-top: 50px; 
+    margin-bottom: 60px;
+    
+    display: flex;
+    
+}
+
+.text-4{
+    
+    
+    margin-top: 195px;
+    padding-left: 28px;
+    line-height: 22px;
+    
+}
+.title-4{
+    font-size: 29px;
+    margin-bottom: 27px;
+}
+
+.container-5{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 86px; 
+    margin-bottom: 79px;
+    background-size: 100vw;
+    background-color:#fbfbfb;
+    
+}
+.text-5{
+    text-align: center;
+    font-size: 15px;
+}
+.title-5{
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+.paragraph-5{
+    font-size: 14.4px;
+}
+
+.image-5{
+    position: relative;
+    top: 35px;
+    left: 153px;    
+}
+.image-6{
+    width:300px ;
+    margin: 0 auto;
+    margin-top: 81px;
+    
+}
+
+    
+.text-6{
+    width: 710px;
+    margin: 0 auto;
+    margin-top: 36px;
+    text-align: center;
+}
+.title-6{
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+.paragraph-6{
+    font-size: 14.4px;
+    line-height: 22px;
+    margin-bottom: 90px;
+}
+
+
+.container-7{
+    width: 969px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.image-7{
+    margin-top:10px ;
+    margin-bottom: 45px;
+}
+
+.text-7{
+    padding: 5px;
+    margin-top: 202px;
+}
+
+.title-7{
+    font-size: 29px;
+    margin-bottom: 20px;
+}
+.paragraph-7{
+    font-size: 14.4px;
+    line-height: 22px;
+    
+}
+
+.container-8{
+    width: 969px;
+    margin: 0 auto;
+    
+
+}
+.title-8{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 29px;
+
+}
+.ul{
+    width: 1000px;
+    margin: 0 auto;    
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    margin-bottom: 40px;
+
+}
+.ul1{
+    width: 460px;
+
+}
+.ul2{
+    margin: 0;
+    padding: 0;
+    width: 455px;
+    
+
+}
+
+
+
+ li{
+    color: #DD4c4f;
+    
+}
+li p{
+    font-size: 14.4px;
+    color: #555;
+    line-height: 22px
+}
+
+
+.container-9{
+    width: 950px; 
+    margin: 0 auto;   
+    /* background-color:#fbfbfb; */ 
+    background-color: aqua;
+
+
+}
+.title-9{
+    text-align: center;
+    font-size: 29px;
+}
+.paragraph-9{
+    font-size: 14.4px;
+}
+
